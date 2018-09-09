@@ -13,15 +13,18 @@ An interface for real time streaming, cloud gaming and virtual desktop applicati
 - Client for iOS
 - Client for webGL
 
+# 1.7.0.0 (2018-09-09)
+Notable new features:
+- Bugs fixed
+- Support webGL for server
+
 # 1.6.0.4 (2018-07-16)
-A major release with many compatibility-breaking changes.
 Notable new features:
 - client.win32 has been added
 - client.osx has been added
 - Some games tested successfully
 
 # 1.1.0.1 (2018-06-02)
-A major release with many compatibility-breaking changes.
 Notable new features:
 - Integrated with wolf.engine
 - Streaming has been added
