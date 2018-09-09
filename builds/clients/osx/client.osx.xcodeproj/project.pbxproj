@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB0F67120DF780A007C4553 /* libwolf.media_core.osx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB0F66F20DF780A007C4553 /* libwolf.media_core.osx.dylib */; };
+		2CB0F67220DF780A007C4553 /* libwolf.system.osx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB0F67020DF780A007C4553 /* libwolf.system.osx.dylib */; };
+		2CD790C920D4326F00E14B50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD790C720D4326F00E14B50 /* main.cpp */; };
+		2CD790CA20D4326F00E14B50 /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD790C820D4326F00E14B50 /* pch.cpp */; };
+		2CD790CD20D434F200E14B50 /* libtbb_debug.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790CC20D434F200E14B50 /* libtbb_debug.dylib */; };
+		2CD790CF20D438DA00E14B50 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790CE20D438DA00E14B50 /* libglfw3.a */; };
+		2CD790D820D4468000E14B50 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790D720D4468000E14B50 /* CoreVideo.framework */; };
+		2CD790DA20D4469300E14B50 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790D920D4469300E14B50 /* OpenGL.framework */; };
+		2CD790DC20D446A100E14B50 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790DB20D446A100E14B50 /* IOKit.framework */; };
+		2CD790DE20D446AF00E14B50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790DD20D446AF00E14B50 /* Cocoa.framework */; };
+		2CD790E020D446BD00E14B50 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD790DF20D446BD00E14B50 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CD790BA20D4319400E14B50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CB0F66F20DF780A007C4553 /* libwolf.media_core.osx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwolf.media_core.osx.dylib; path = ../../../../../WolfSource/Wolf.Engine/bin/osx/Build/Products/Debug/libwolf.media_core.osx.dylib; sourceTree = "<group>"; };
+		2CB0F67020DF780A007C4553 /* libwolf.system.osx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwolf.system.osx.dylib; path = ../../../../../WolfSource/Wolf.Engine/bin/osx/Build/Products/Debug/libwolf.system.osx.dylib; sourceTree = "<group>"; };
+		2CB0F67320DFA6A9007C4553 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message.h; path = ../../../src/common/message.h; sourceTree = "<group>"; };
+		2CD790BC20D4319400E14B50 /* clinet.osx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = clinet.osx; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD790C620D4326F00E14B50 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pch.h; path = ../../../src/clients/pch.h; sourceTree = "<group>"; };
+		2CD790C720D4326F00E14B50 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../src/clients/main.cpp; sourceTree = "<group>"; };
+		2CD790C820D4326F00E14B50 /* pch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pch.cpp; path = ../../../src/clients/pch.cpp; sourceTree = "<group>"; };
+		2CD790CC20D434F200E14B50 /* libtbb_debug.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb_debug.dylib; path = ../../../../../WolfSource/Wolf.Engine/engine/dependencies/tbb/oss/osx/lib/libtbb_debug.dylib; sourceTree = "<group>"; };
+		2CD790CE20D438DA00E14B50 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../deps/glfw/lib/osx/debug/libglfw3.a; sourceTree = "<group>"; };
+		2CD790D320D4429000E14B50 /* libwolf.media_core.macOS.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwolf.media_core.macOS.dylib; path = ../../../../../WolfSource/Wolf.Engine/bin/Build/macOS/Products/Debug/libwolf.media_core.macOS.dylib; sourceTree = "<group>"; };
+		2CD790D420D4429000E14B50 /* libwolf.system.macOS.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwolf.system.macOS.dylib; path = ../../../../../WolfSource/Wolf.Engine/bin/Build/macOS/Products/Debug/libwolf.system.macOS.dylib; sourceTree = "<group>"; };
+		2CD790D720D4468000E14B50 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2CD790D920D4469300E14B50 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		2CD790DB20D446A100E14B50 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2CD790DD20D446AF00E14B50 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2CD790DF20D446BD00E14B50 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD790B920D4319400E14B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD790E020D446BD00E14B50 /* Carbon.framework in Frameworks */,
+				2CD790DE20D446AF00E14B50 /* Cocoa.framework in Frameworks */,
+				2CD790DC20D446A100E14B50 /* IOKit.framework in Frameworks */,
+				2CD790DA20D4469300E14B50 /* OpenGL.framework in Frameworks */,
+				2CD790D820D4468000E14B50 /* CoreVideo.framework in Frameworks */,
+				2CB0F67120DF780A007C4553 /* libwolf.media_core.osx.dylib in Frameworks */,
+				2CB0F67220DF780A007C4553 /* libwolf.system.osx.dylib in Frameworks */,
+				2CD790CF20D438DA00E14B50 /* libglfw3.a in Frameworks */,
+				2CD790CD20D434F200E14B50 /* libtbb_debug.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD790B320D4319400E14B50 = {
+			isa = PBXGroup;
+			children = (
+				2CD790C720D4326F00E14B50 /* main.cpp */,
+				2CB0F67320DFA6A9007C4553 /* message.h */,
+				2CD790C820D4326F00E14B50 /* pch.cpp */,
+				2CD790C620D4326F00E14B50 /* pch.h */,
+				2CD790BD20D4319400E14B50 /* Products */,
+				2CD790CB20D434F200E14B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD790BD20D4319400E14B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD790BC20D4319400E14B50 /* clinet.osx */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD790CB20D434F200E14B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0F66F20DF780A007C4553 /* libwolf.media_core.osx.dylib */,
+				2CB0F67020DF780A007C4553 /* libwolf.system.osx.dylib */,
+				2CD790DF20D446BD00E14B50 /* Carbon.framework */,
+				2CD790DD20D446AF00E14B50 /* Cocoa.framework */,
+				2CD790DB20D446A100E14B50 /* IOKit.framework */,
+				2CD790D920D4469300E14B50 /* OpenGL.framework */,
+				2CD790D720D4468000E14B50 /* CoreVideo.framework */,
+				2CD790D320D4429000E14B50 /* libwolf.media_core.macOS.dylib */,
+				2CD790D420D4429000E14B50 /* libwolf.system.macOS.dylib */,
+				2CD790CE20D438DA00E14B50 /* libglfw3.a */,
+				2CD790CC20D434F200E14B50 /* libtbb_debug.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD790BB20D4319400E14B50 /* clinet.osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD790C320D4319400E14B50 /* Build configuration list for PBXNativeTarget "clinet.osx" */;
+			buildPhases = (
+				2CD790B820D4319400E14B50 /* Sources */,
+				2CD790B920D4319400E14B50 /* Frameworks */,
+				2CD790BA20D4319400E14B50 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clinet.osx;
+			productName = clinet.osx;
+			productReference = 2CD790BC20D4319400E14B50 /* clinet.osx */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD790B420D4319400E14B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = WolfSource.io;
+				TargetAttributes = {
+					2CD790BB20D4319400E14B50 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CD790B720D4319400E14B50 /* Build configuration list for PBXProject "client.osx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CD790B320D4319400E14B50;
+			productRefGroup = 2CD790BD20D4319400E14B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD790BB20D4319400E14B50 /* clinet.osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD790B820D4319400E14B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD790C920D4326F00E14B50 /* main.cpp in Sources */,
+				2CD790CA20D4326F00E14B50 /* pch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CD790C120D4319400E14B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CD790C220D4319400E14B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CD790C420D4319400E14B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2WEUYPJ98;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/tbb/oss/osx/lib/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/bin/osx/Build/Products/Debug/",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/../../../src/clients/pch.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					ASIO_STANDALONE,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../deps/glfw/include/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/tbb/oss/osx/include/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/src/wolf.system/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/src/wolf.media_core/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/ffmpeg/include/",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../../../deps/glfw/lib/osx/debug/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/ffmpeg/bin/osx/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/bin/osx/Build/Products/Debug/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CD790C520D4319400E14B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2WEUYPJ98;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/tbb/oss/osx/lib/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/bin/osx/Build/Products/Release/",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/../../../src/clients/pch.h";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../deps/glfw/include/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/tbb/oss/osx/include/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/src/wolf.system/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/src/wolf.media_core/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/ffmpeg/include/",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../../../deps/glfw/lib/osx/release/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/engine/dependencies/ffmpeg/bin/osx/",
+					"$(SRCROOT)/../../../../../WolfSource/Wolf.Engine/bin/osx/Build/Products/Release/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD790B720D4319400E14B50 /* Build configuration list for PBXProject "client.osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD790C120D4319400E14B50 /* Debug */,
+				2CD790C220D4319400E14B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD790C320D4319400E14B50 /* Build configuration list for PBXNativeTarget "clinet.osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD790C420D4319400E14B50 /* Debug */,
+				2CD790C520D4319400E14B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD790B420D4319400E14B50 /* Project object */;
+}
